@@ -11,7 +11,7 @@ MODEL_PATH = Path(__file__).parent / "amharic_ngram_model.joblib"
 
 st.set_page_config(
     page_title="Amharic Predictive Text",
-    page_icon="✍️",
+   # page_icon="✍️",
     layout="centered",
 )
 
@@ -110,7 +110,7 @@ def clear_sentence():
 # User interface
 # --------------------------------------------------
 
-st.title("✍️ Amharic Predictive Text")
+st.title(" Amharic Predictive Text")
 st.caption(
     "Write in Amharic and get next-word suggestions "
     "powered by your GPAC n-gram language model."
